@@ -4,7 +4,7 @@ on:
 
 jobs:
   test:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: checkout repository
@@ -16,4 +16,4 @@ jobs:
       - name: run unit test inside docker
         uses: docker run --rm app-app
 
-        
+
