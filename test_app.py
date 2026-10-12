@@ -1,5 +1,5 @@
 import pytest
-from app import addition, subtraction,multiplication
+from application import addition, subtraction,multiplication
 def test_addition():
     assert addition(3,2) == 5
 def test_subtraction():
